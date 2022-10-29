@@ -1,0 +1,22 @@
+.container {
+  padding: 1rem;
+  background-color: var(--blue);
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.item_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: var(--grey);
+  width: 80rem;
+  max-width: 95%;
+  border-radius: 6px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  list-style: none;
+}

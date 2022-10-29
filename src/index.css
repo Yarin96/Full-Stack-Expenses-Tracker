@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Titillium+Web&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Titillium Web", sans-serif;
+  overflow-y: scroll;
+}
+
+:root {
+  --blue: rgb(108, 159, 254);
+  --grey: rgb(227, 227, 227);
+}
+
+body {
+  margin: 0;
+  -ms-overflow-style: none;
+  background-color: var(--grey);
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.slide-in-left-enter {
+  transform: translateX(-100%);
+}
+
+.slide-in-left-enter-active {
+  transform: translateX(0);
+  opacity: 1;
+  transition: all 200ms;
+}
+
+.slide-in-left-exit {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+.slide-in-left-exit-active {
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: all 200ms;
+}
